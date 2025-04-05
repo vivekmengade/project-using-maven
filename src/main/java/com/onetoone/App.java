@@ -39,20 +39,23 @@ public class App {
 		
 		
 		
-		Studento stu2= new Studento();
-		stu2.setSid(2);
-		stu2.setName("Nihar");
+//		Studento stu2= new Studento();
+//		stu2.setSid(2);
+//		stu2.setName("Nihar");
+//		
+//		
+//		Address add2=new Address();
+//		add2.setArea("Pune");
+//		add2.setColony("Wagholi");
+//		add2.setPincode(412);
+//		
+//		stu2.setAdd(add2);
+//		session.save(stu2);
+//		session.save(add2);
 		
 		
-		Address add2=new Address();
-		add2.setArea("Pune");
-		add2.setColony("Wagholi");
-		add2.setPincode(412);
-		
-		stu2.setAdd(add2);
-		session.save(stu2);
-		session.save(add2);
-		
+		Studento sstu=session.get(Studento.class, 4);
+		System.out.println(sstu);
 		
 		
 		
