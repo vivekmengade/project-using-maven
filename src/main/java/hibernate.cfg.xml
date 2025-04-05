@@ -28,7 +28,8 @@
 		<mapping class="com.Hib.Vehicle"/>
 		<mapping class="com.Embeddable.Student"/>
 		<mapping class="com.Embadable2.Student2"/>
-	
+		<mapping class="com.onetoone.Entity.Studento"/>
+		<mapping class="com.onetoone.Entity.Address"/>
 	
 	</session-factory>
 
