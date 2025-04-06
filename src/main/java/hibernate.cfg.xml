@@ -30,6 +30,8 @@
 		<mapping class="com.Embadable2.Student2"/>
 		<mapping class="com.onetoone.Entity.Studento"/>
 		<mapping class="com.onetoone.Entity.Address"/>
+		<mapping class="com.Onetomany.Entity.StudentC"/>
+		<mapping class="com.Onetomany.Entity.Coursec"/>
 	
 	</session-factory>
 
