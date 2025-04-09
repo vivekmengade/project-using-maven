@@ -25,13 +25,15 @@
 		<property name="hibernate.formate_sql">true</property>
 		
 		<!-- mapping resource -->
-		<mapping class="com.Hib.Vehicle"/>
+		<!-- <mapping class="com.Hib.Vehicle"/>
 		<mapping class="com.Embeddable.Student"/>
 		<mapping class="com.Embadable2.Student2"/>
 		<mapping class="com.onetoone.Entity.Studento"/>
 		<mapping class="com.onetoone.Entity.Address"/>
 		<mapping class="com.Onetomany.Entity.Project"/>
-		<mapping class="com.Onetomany.Entity.Employee"/>
+		<mapping class="com.Onetomany.Entity.Employee"/> -->
+		<mapping class="com.manytoone.Student"/>
+		<mapping class="com.manytoone.Projects"/>
 	
 	</session-factory>
 
