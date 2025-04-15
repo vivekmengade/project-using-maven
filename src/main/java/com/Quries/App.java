@@ -60,6 +60,7 @@ public class App {
 		
 		Query<Student> q7=q6.setParameter("n", "Ram");
 		Query<Student> q8=q6.setParameter("a", 2);
+//		
 		
 		
 		q6.executeUpdate();
